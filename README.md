@@ -1,5 +1,5 @@
 # sort-package
-sort algorithms
+basic sort algorithms's performance
 ---
 
 |          algorithm           | stability | is in-place sort |        time complexity        | space complexity |                             memo                             |
