@@ -60,6 +60,18 @@ class MaxPQ:
         return max
 
 
+if __name__ == '__main__':
+
+    alpha_instance = ['H', 'E', 'A', 'P', 'S', 'O', 'R', 'T']
+    mpq = MaxPQ()
+    for index, value in enumerate(alpha_instance):
+        mpq.insert(value)
+    print(mpq.keys)
+    sorted_list = []
+    for i in range(len(mpq.keys)):
+        sorted_list.append(mpq.delete_max())
+    # Descending
+    print(sorted_list)
 
 
 
